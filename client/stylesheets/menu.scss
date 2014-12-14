@@ -1,0 +1,52 @@
+/* Styles applicable to the menu */
+
+@import "globals";
+
+.menu-wrapper {
+  padding: 5px 0px 5px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+  border-bottom: 2px solid $YELLOW;
+  background-color: $BEIGE;
+}
+
+.logo-icon {
+  height: 40px;  
+}
+
+.nav-icon {
+  height: 40px;
+  padding: 5px;
+  border: 1px solid $BEIGE;
+}
+
+.nav-icon:hover {
+  border: 1px solid $YELLOW;  
+}
+
+.icon-label {
+  font-size: 12pt;
+}
+
+.menu-icons {
+  float: right;
+  width: 30%;
+  box-sizing: content-box;
+}
+
+.title-wrapper {
+  float: left;
+  font-size: 20pt;
+  line-height: 40px;
+}
+
+.title {
+  float: left;
+  line-height: 40px; 
+  margin-right: 10px;
+}
+
+#withdraw {
+  padding-right: 40px;
+}

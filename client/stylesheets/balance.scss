@@ -1,0 +1,22 @@
+/* Styles applicable to the current balance page */
+
+@import "globals";
+
+#balance-wrapper {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.curr-balance-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#counter {
+  font-size: 70pt;
+  line-height: 70pt;
+  font-family: 'Jacques Francois Shadow', cursive;
+  color: $GREEN;
+}
