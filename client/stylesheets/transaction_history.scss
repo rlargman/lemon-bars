@@ -1,0 +1,22 @@
+/* Styles applicable to the transaction history page */
+
+@import "globals";
+
+#transaction-history-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 14pt;
+}
+
+#transaction-history-wrapper table{
+  width: 100%;
+}
+
+#transaction-history-wrapper th {
+  width: 33%;
+  border-bottom: 1px solid $GRAY;
+}
+
+#transaction-history-wrapper tr {
+  height: 40px;
+}

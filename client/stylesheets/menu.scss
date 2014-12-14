@@ -7,22 +7,24 @@
   margin-right: auto;
   margin-left: auto;
   height: 50px;
-  border-bottom: 2px solid $YELLOW;
-  background-color: $BEIGE;
+  border-bottom: 1px solid $YELLOW;
+  background-color: $YELLOW;
+  color: $CHARCOAL;
 }
 
 .logo-icon {
-  height: 40px;  
+  height: 40px; 
 }
 
 .nav-icon {
   height: 40px;
+  width: 40px; 
   padding: 5px;
-  border: 1px solid $BEIGE;
+  border: 1px solid $YELLOW;
 }
 
 .nav-icon:hover {
-  border: 1px solid $YELLOW;  
+  border: 1px solid $CHARCOAL;  
 }
 
 .icon-label {

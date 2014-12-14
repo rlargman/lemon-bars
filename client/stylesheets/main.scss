@@ -10,7 +10,8 @@ html, body {
 body {
   font-family: 'Jacques Francois Shadow', cursive;
   font-size: 20pt;
-  color: $CHARCOAL;
+  background-color: $CHARCOAL;
+  color: white;
 }
 
 #main-wrapper {
@@ -33,4 +34,9 @@ body {
 
 .button:hover {
   background-color: $YELLOW;
+  color: $CHARCOAL;
+}
+
+.hidden {
+  display: none;
 }
