@@ -11,12 +11,17 @@
 
 .curr-balance-wrapper {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #counter {
-  font-size: 80pt;
-  line-height: 80pt;
-  font-family: 'Jacques Francois Shadow', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100pt;
+  font-family: 'Londrina Shadow', cursive;
   color: $GREEN;
+}
+
+.money-icon {
+  height: 100px;
 }

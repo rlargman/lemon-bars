@@ -3,28 +3,17 @@
 @import "globals";
 
 .menu-wrapper {
-  padding: 5px 0px 5px 10px;
   margin-right: auto;
   margin-left: auto;
-  height: 50px;
+  height: 40px;
   border-bottom: 1px solid $YELLOW;
-  background-color: $YELLOW;
-  color: $CHARCOAL;
-}
-
-.logo-icon {
-  height: 40px; 
 }
 
 .nav-icon {
   height: 40px;
   width: 40px; 
   padding: 5px;
-  border: 1px solid $YELLOW;
-}
-
-.nav-icon:hover {
-  border: 1px solid $CHARCOAL;  
+  border-radius: 5px;
 }
 
 .icon-label {
@@ -32,23 +21,11 @@
 }
 
 .menu-icons {
-  float: right;
-  width: 30%;
   box-sizing: content-box;
 }
 
-.title-wrapper {
-  float: left;
-  font-size: 20pt;
-  line-height: 40px;
-}
-
-.title {
-  float: left;
-  line-height: 40px; 
-  margin-right: 10px;
-}
-
-#withdraw {
-  padding-right: 40px;
+.selected {
+  background-color: $YELLOW;  
+  height: 40px;
+  background-clip: content-box;
 }
