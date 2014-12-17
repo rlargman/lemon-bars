@@ -1,0 +1,42 @@
+/* Styles applicable to the withdraw page */
+
+@import "globals";
+
+#withdraw-wrapper {
+  margin-top: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#withdraw-wrapper form {
+  padding: 20px;
+  //border: 1px dashed $YELLOW;
+  font-size: 14pt;
+  margin-top: 20px;
+}
+
+#withdraw-wrapper input {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#withdraw-wrapper .description {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#withdraw-wrapper .button {
+  background-color: $GREEN;
+  padding: 10px;
+  width: 25%;
+}
+
+#withdraw-wrapper .button:hover {
+  background-color: white;
+}
+
+#withdraw-wrapper .money-icon {
+  height: 30px;
+}

@@ -5,13 +5,19 @@
 .menu-wrapper {
   margin-right: auto;
   margin-left: auto;
-  height: 10%;
-  border-bottom: 1px solid $YELLOW;
+  height: 7%;
+  border-bottom: 1px solid $GRAY;
 }
 
 .nav-icon {
   max-height: 100%;
-  padding: 5px;
+  padding: 10px;
+}
+
+.menu-wrapper .col-1-4 {
+  height: 100%;
+  border-right: 1px solid $GRAY;
+  padding: 0px;
 }
 
 .icon-label {
@@ -20,6 +26,5 @@
 
 .selected {
   background-color: $YELLOW;  
-  max-height: 100%;
-  background-clip: content-box;
+  max-height: 100%; 
 }

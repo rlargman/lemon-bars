@@ -6,11 +6,10 @@
   width: 80%;
   margin: auto;
   text-align: center;
-  font-family: 'Lato', sans-serif;
 }
 
 .curr-balance-wrapper {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -24,4 +23,10 @@
 
 .money-icon {
   height: 100px;
+}
+
+.bank-name {
+  font-family: $CURSIVE;
+  font-size: 30pt;
+  border: 1px solid black;
 }

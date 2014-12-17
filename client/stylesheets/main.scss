@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: $SANS_SERIF;
   font-size: 20pt;
   color: $CHARCOAL;
 }
@@ -21,18 +21,19 @@ body {
 }
 
 .button {
-  font-family: 'Lato', sans-serif;
+  font-family: $SANS_SERIF;
   padding: 10px;
-  border: 1px solid $YELLOW;
+  border: 1px solid $GREEN;
   border-radius: 5px;
   font-size: 12pt;
   max-width: 200px;
   margin-right: auto;
   margin-left: auto;
+  background-color: $GREEN;
 }
 
 .button:hover {
-  background-color: $YELLOW;
+  background-color: white;
 }
 
 .hidden {
