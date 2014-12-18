@@ -1,3 +1,16 @@
+Template.balance.helpers({
+  currBalance: function() {
+    var total = 0.0;
+    var transactions = Transactions.find().fetch();
+    for (var i = 0; i < transactions.length; i++) {
+      var transaction = transactions[i];
+      total += transaction.amount;
+    }
+    return total.toFixed(2);
+  }
+});
+
+
 function toggleButtonText() {
   $button = $('#transaction-history');  
   var text = $button.html();

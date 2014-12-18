@@ -1,46 +1,46 @@
-/* Styles applicable to the withdraw page */
+/* Styles applicable to the deposit page */
 
 @import "globals";
 
-#withdraw-wrapper {
+#deposit-wrapper {
   margin-top: 40px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#withdraw-wrapper form {
+#deposit-wrapper form {
   padding: 20px;
   border: 1px solid $GRAY;
   font-size: 14pt;
   margin-top: 20px;
 }
 
-#withdraw-wrapper input {
+#deposit-wrapper input {
   margin-bottom: 20px;
   margin-top: 10px;
   padding: 5px;
 }
 
-#withdraw-wrapper .description {
+#deposit-wrapper .description {
   min-width: 50%;
   margin-bottom: 20px;
 }
 
-#withdraw-wrapper .button {
+#deposit-wrapper .button {
   background-color: $GREEN;
   padding: 10px;
 }
 
-#withdraw-wrapper .button:hover {
+#deposit-wrapper .button:hover {
   background-color: white;
 }
 
-#withdraw-wrapper .money-icon {
+#deposit-wrapper .money-icon {
   height: 30px;
 }
 
-#withdraw-wrapper .page-name {
+#deposit-wrapper .page-name {
   font-family: $CURSIVE;
   font-size: 30pt;
 }

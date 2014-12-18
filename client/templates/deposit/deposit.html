@@ -1,4 +1,17 @@
 <template name="deposit">
   <div id="deposit-wrapper">
+    <span class="page-name">Make a Deposit</span>
+    <form class="new-deposit">
+      Amount:
+      <img class="money-icon" src="/lemon.png"/>
+      <input type="number" name="depositAmount" min="0" max="5" step="0.25" value="1.00">
+      <br>
+      Reason:
+      <input class="description" type="text" name="depositDescription" placeholder=
+      "EX: Chauffering."
+      />
+      <br>
+      <input class="button" type="submit" value="Money in the bank!">
+    </form>
   </div>
 </template>

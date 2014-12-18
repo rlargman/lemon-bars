@@ -1,20 +1,17 @@
 <template name="withdraw">
   <div id="withdraw-wrapper">
-    Would you like to withdraw from the Bank of Lemon Bars?
-    <form>
+    <span class="page-name">Make a Withdrawal</span>
+    <form class="new-withdrawal">
       Amount:
-      <br> 
       <img class="money-icon" src="/lemon.png"/>
-      <input type="number" name="withdraw-amount" min="0" max="5" step="0.25" placeholder="1.00">
+      <input type="number" name="withdrawAmount" min="0" max="5" step="0.25" value="1.00">
       <br>
-      Description:
-      <br>
-      <input class="description" type="text" name="description" placeholder=
-      "Give a description of why you are withdrawing, such as putting them in your gullet."
+      Reason:
+      <input class="description" type="text" name="withdrawDescription" placeholder=
+      "EX: putting them in my gullet."
       />
       <br>
       <input class="button" type="submit" value="Yummy!">
-
     </form>
   </div>
 </template>
