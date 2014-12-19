@@ -5,7 +5,7 @@
 #about-wrapper {
   margin-top: 20px;
   padding-bottom: 40px;
-  width: 80%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,6 +24,10 @@
   text-indent: 3em;
 }
 
+#about-wrapper .servings {
+  margin-bottom: 10px;
+}
+
 #about-wrapper h3 {
   text-align: center;
   font-weight: normal;
@@ -35,8 +39,8 @@
 
 #about-wrapper .recipe {
   border: 1px dashed $YELLOW;
-  padding: 10px;
-  font-size: 14pt;
+  padding: 20px;
+  font-size: 12pt;
   text-align: left;
 }
 
@@ -45,6 +49,11 @@
   -webkit-columns: 2;
   -moz-columns: 2;
   list-style-type: none;
+  line-height: 1.5em;
+}
+
+#about-wrapper ol {
+  line-height: 1.5em;
 }
 
 #about-wrapper .underline {
